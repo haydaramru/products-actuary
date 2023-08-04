@@ -1,0 +1,35 @@
+{
+  "name": "products-actuary",
+  "version": "1.0.0",
+  "description": "Hands on - membuat controller untuk products Actuary Academy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server/app.ts",
+    "dev": "nodemon ./src/server/app.ts",
+    "build": "tsc --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haydar-amru-revanda/products-actuary.git"
+  },
+  "author": "Haydar Amru Revanda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haydar-amru-revanda/products-actuary/issues"
+  },
+  "homepage": "https://github.com/haydar-amru-revanda/products-actuary#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
