@@ -9,11 +9,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // routes
-app.use("/our-products/", router);
+app.use("/api/v1/products", router);
 
 // db connection then server connection
 db.then(() => {
-    app.listen(3000, () => {
-        console.log("Server is running on port 3000");
+    app.listen(8080, () => {
+        console.log("Server is running on port 8080");
     })
 });
