@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haydar-amru-revanda/products-actuary.git"
+    "url": "git+https://github.com/haydaramru/products-actuary.git"
   },
-  "author": "Haydar Amru Revanda",
+  "author": "Haydar Amru",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/haydar-amru-revanda/products-actuary/issues"
+    "url": "https://github.com/haydaramru/products-actuary/issues"
   },
-  "homepage": "https://github.com/haydar-amru-revanda/products-actuary#readme",
+  "homepage": "https://github.com/haydaramru/products-actuary#readme",
   "dependencies": {
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
