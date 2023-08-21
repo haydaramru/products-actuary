@@ -6,10 +6,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-```
-$ git clone https://github.com/haydaramru/products-actuary.git
-```
-
 Create a .env file in the root directory and keep your mongo DB atlas database username and password. See .env.example for details.
 
 ```
